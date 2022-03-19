@@ -39,3 +39,15 @@ nav-link:hover{
     font-weight: 700;
     border-radius: 60px;
 }
+
+.main{
+    background: url(/IMAGES/picone.jpg)no-repeat;
+    background-size: cover;
+    height:100vh;
+    background-position: 50% 50%;
+    width:100%;
+
+}
+.main h1{
+    
+}
