@@ -63,3 +63,18 @@ nav-link:hover{
     font-weight: 700;
     border-radius: 60px;
 }
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
