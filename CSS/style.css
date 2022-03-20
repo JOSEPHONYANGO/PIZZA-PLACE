@@ -78,3 +78,10 @@ nav-link:hover{
     border-radius: 20px;
     margin-top: 20px;
 }
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
