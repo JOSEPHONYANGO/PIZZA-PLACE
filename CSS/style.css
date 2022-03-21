@@ -1,72 +1,154 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
+
+
+* {
     box-sizing: border-box;
-}
-.navbar-brand{
-    font-size: 2rem;
-    color: black;
-   
-}
-.navbar-brand:hover{
-    color: black;
-}
-nav-link{
-    margin-right: 10px;
-    margin-left: 10px;
-    color:black;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-}
-nav-link:hover{
-    color:black;
-}
-.search{
-    height:40px;
-    width:80%;
-    border-radius: 60px;
-    outline:none;
-    margin-right: -35px;
-    border:2px solid rgb(248,26,92)
-}
-.btn0{
-    height: 40px;
-    width:40px;
-    outline:none;
-    border:none;
-    background: rgb(248,26,92);
-    color:white;
-    font-weight: 700;
-    border-radius: 60px;
+    scroll-behavior: smooth;
 }
 
-.main{
-    background: url(/IMAGES/picone.jpg)no-repeat;
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+#spantext {
+    color: green;
+}
+
+.navi {
+    float: right;
+}
+
+.exc {
+    color: green;
+}
+#piz-pap {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkorange;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.h-buttons button {
+    border-radius: 40px;
+    color: black;
+}
+
+.menu-btn {
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #000;
+}
+
+figcaption {
+    font-family: 'Oswald', serif;
+}
+#menu {
+    padding-top: 20px;
+}
+
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px;
+}
+.contacts {
+    background-image: url("../IMAGES/pizzatwo.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
-    background-position: 50% 50%;
-    width:100%;
-
 }
-.main h1{
-   font-size: 4rem;
-   font-weight: 700;
 
+.contact-overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
 }
-.btn1{
-    height: 45px;
-    width:35px;
-    border: none;
+
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+.click-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.get-pizza {
+    margin-top: 40px;
+}
+
+.contact {
+    padding-top: 20px;
+}
+
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.data {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.go {
+    border-radius: 20px;
+}
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
     outline: none;
-    background-color:rgb(248,26,92);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
 }
+
+.deliver, .delivernot {
+    margin: 10px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
 #order-pizza {
     padding: 20px 50px 20px 50px;
     font-family: 'Love Ya Like A Sister', cursive;
 }
+
 .order-overlay {
     height: inherit;
     padding: 20px;
@@ -78,10 +160,9 @@ nav-link:hover{
     border-radius: 20px;
     margin-top: 20px;
 }
-select {
-    width: 100%;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f1f1f1;
-  }
+
+#list {
+    color: #000;
+}
+
+
