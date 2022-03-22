@@ -184,7 +184,7 @@ h4 {
     background-color: rgba(0, 0, 0, 0.7);
 }
 .landing {
-    background-image: url("../IMAGES/pitza.png");
+    background-image: url("IMAGES/pitza.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
