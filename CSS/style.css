@@ -73,7 +73,7 @@ figcaption {
     margin-top: 30px;
 }
 .contacts {
-    background-image: url("../IMAGES/pizzatwo.jpg");
+    background-image: url("/IMAGES/pizzatwo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -170,7 +170,7 @@ h4 {
 
 .menu {
     margin-top: 30px;
-    background-image: url("../IMAGES/pizzatwo.jpg");
+    background-image: url("/IMAGES/pizzatwo.jpg");
     padding: 0;
 }
 
@@ -184,7 +184,7 @@ h4 {
     background-color: rgba(0, 0, 0, 0.7);
 }
 .landing {
-    background-image: url("../IMAGES/pitza.png");
+    background-image: url("/IMAGES/pitza.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
